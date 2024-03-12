@@ -1,0 +1,24 @@
+{
+  "name": "aa_ejemplo-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+  },
+  "keywords": [
+    "Exampe"
+  ],
+  "author": "JGV",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "^4.13.0"
+  },
+  "dependencies": {
+    "three": "^0.135.0",
+    "web-ifc-viewer": "^1.0.218"
+  }
+}
